@@ -2,7 +2,7 @@
 
 GKE-Details is a programme designed to fetch information on Cluster and Nodepool in Google Kubernetes Engine (GKE). The information you will get by running this program is related to three essential details which are Cluster, Nodepool, Image and Disk with the following details.
 
-### Related Cluster
+#### Related Cluster
 
 - Cluster Name
 - Cluster Version
@@ -16,7 +16,7 @@ GKE-Details is a programme designed to fetch information on Cluster and Nodepool
 - Vertical Pod Autoscaling
 - Autoscaling profile
 
-### Related Nodepool
+#### Related Nodepool
 
 - Node Pool name
 - Node version
@@ -24,7 +24,7 @@ GKE-Details is a programme designed to fetch information on Cluster and Nodepool
 - Autoscaling
 - Node zones
 
-### Related Image and Disk
+#### Related Image and Disk
 
 - Image type
 - Machine type
@@ -33,7 +33,7 @@ GKE-Details is a programme designed to fetch information on Cluster and Nodepool
 - Taints
 - GCE instance metadata
 
-# Code Configuration
+## Code Configuration
 
 To run this project, you will need to prepare the fire environment you are using with the following steps:
 
@@ -44,7 +44,7 @@ pip install google-cloud-container
 pip install google-api-core
 ```
 
-# Environment Configuration
+## Environment Configuration
 
 Since your running.py script explicitly specifies the environment when calling the load_projects function (e.g., load_projects(‘prod’) and load_projects(‘non-prod’)), you do not need to use environment variables in the terminal to set the environment.
 
@@ -53,7 +53,7 @@ export ENV=prod
 export ENV=non-prod 
  ```
 
-# Running Code 
+## Running Code 
 
 To run this programme, you just need to execute this command
 ```
