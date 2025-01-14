@@ -1,4 +1,4 @@
-# Fatching Detail Information GKE Service
+# Fetching Detail Information GKE Service
 
 GKE-Details is a programme designed to fetch information on Cluster and Nodepool in Google Kubernetes Engine (GKE). The information you will get by running this program is related to three essential details which are Cluster, Nodepool, Image and Disk with the following details.
 
